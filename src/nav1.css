@@ -1,0 +1,123 @@
+.nav_section{
+    display: none!important;
+    display: block!important;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    opacity: .9 ;
+}
+ul li{
+    margin: 17px 24px;
+    text-decoration: none;
+    list-style: none;
+}
+.nav_section_second{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.nav_section_second_inner{
+    width: 100%;
+    height: 220px;
+    background-color: #121212;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    opacity: .8;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+.scrolling_box{
+     width: 100%;
+     height: 150px;
+     background-color: #121212;
+     overflow-y: hidden;
+
+}
+.scrolling_box_inner_divs{
+    width: 100%;
+    /* height: 130px; */
+    background-color: #242424;
+    margin: 14px 0px;
+    border-radius: 10px;
+    padding: 14px 25px;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+.scrolling_box_inner_divs h5{
+    font-size: 18px;
+}
+.scrolling_box_inner_divs h6{
+    margin-top: 10px;
+    font-size: 14px;
+}
+.scrolling_box_inner_divs button{
+    padding:7px 17px ;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+    background-color: 
+    #ffffff;
+    font-weight: bold;
+    margin-top: 17px;
+}
+.scrolling_box:hover{
+    overflow-y: scroll;
+}
+.scrolling_box::-webkit-scrollbar{
+    width: 10px;
+}
+.scrolling_box::-webkit-scrollbar-thumb{
+    background-color: grey;
+}
+.scrolling_box::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+.font_logo{
+    font-size: 25px;
+}
+.font_logo_name{
+    padding: 0px 13px;
+    font-size: 15px;
+}
+.svg_logo_library{
+    /* font-size: 20px!important;
+    color: blue; */
+    background-color: white;
+    /*width: 10px!important; */
+    /* border: 1px solid red; */
+}
+.svg_logo_library_1{
+    /* border: 1px solid blue; */
+    height: 35px;
+    /* background-color: beige; */
+    color: white;
+}
+.nav_section_second_inner_tags{
+    display: flex;
+    width: 90%;
+    height: 70px;
+    /* border: 1px solid green; */
+    flex-wrap: wrap;
+    margin-top:20px ;
+}
+.nav_section_second_inner_tags div{
+    padding: 2px 10px;
+    font-size: 11px;
+    opacity: .7;
+}
+.nav_section_second_inner_btn button{
+    padding: 6px 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color:#212121;
+    outline: none;
+    border: none;
+    border: 1px solid white;
+    color: #ffffff;
+    border-radius: 20px;
+}
